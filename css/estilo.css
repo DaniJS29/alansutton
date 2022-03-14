@@ -1,0 +1,342 @@
+@charset "utf-8";
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+} 
+.header {
+    height: 341px;
+    background-color: #974BA6;
+    width: 100%;
+}
+.fondo {
+    width: 100%;
+    margin-top: 0px;
+}
+.logo {
+    margin: 0 auto;
+    height: 66px;
+    width: 202px;
+    padding-top: 20px;
+    padding-bottom: 5px;
+}
+
+.B1 {
+	margin: 0 auto;
+    height: 50px;
+    width: 135px;
+	padding-top: 5px;
+    padding-bottom: 5px;
+	
+}
+.B2 {
+	margin: 0 auto;
+    width: 135px;
+    height: 50px;
+	padding-top: 5px;
+    padding-bottom: 5px;
+}
+.B3 {
+	margin: 0 auto;
+    width: 135px;
+    height: 50px;
+	padding-top: 5px;
+    padding-bottom: 5px;
+}
+.B4 {
+	margin: 0 auto;
+    width: 135px;
+    height: 50px;
+	padding-top: 5px;
+    padding-bottom: 5px;
+}
+.titulos {
+    font-family: 'Asap', sans-serif;
+    font-weight: normal;
+    font-size: 34px;
+    color: #513F54;
+    padding-top: 30px;
+    padding-bottom: 20px;
+    text-align: center;
+}
+.subtitulos {
+    font-family: 'Asap', sans-serif;
+    font-weight: normal;
+    font-size: 24px;
+    color: #513F54;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    text-align: center;
+}
+.textos {
+    font-family: 'Martel Sans', sans-serif;
+    padding-left: 40px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: #513F54;
+    font-size: 13pt;
+    padding-right: 40px;
+    line-height: 23px;
+}
+.canciones {
+    font-family: 'Martel Sans', sans-serif;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    color: #513F54;
+    font-size: 13pt;
+    line-height: 23px;
+    text-align: center;
+}
+.textofinal {
+    font-family: 'Martel Sans', sans-serif;
+    padding-left: 40px;
+    padding-top: 10px;
+    padding-bottom: 30px;
+    color: #513F54;
+    font-size: 13pt;
+    padding-right: 40px;
+    line-height: 23px;
+}
+.inicioalan {
+    margin: 0 auto;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    width: 370px;
+    height: 250px;
+}
+.slb {
+    height: 370px;
+    width: 371px;
+	margin: 0 auto;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.slm {
+    margin: 0 auto;
+    width: 370px;
+    height: 367px;
+    padding-top: 30px;
+    padding-bottom: 60px;
+}
+.botones {
+    height: 170px;
+    padding-top: 20px;
+    padding-bottom: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.albumes {
+    height: 80px;
+    width: 180px;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-bottom: 20px;
+}
+.sencillos {
+    width: 180px;
+    height: 80px;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-bottom: 20px;
+}
+.BAtras {
+    height: 50px;
+    width: 52px;
+    margin-left: 25px;
+    margin-top: -62px;
+}
+.homonimo {
+	margin: 0 auto;
+    height: 372px;
+    width: 370px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.Ealbum {
+    margin: 0 auto;
+    height: 50px;
+    width: 135px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.BVolver {
+    margin: 0 auto;
+    height: 50px;
+    width: 300px;
+    padding-top: 50px;
+    padding-bottom: 20px;
+}
+.plataformas {
+    margin: 0 auto;
+    height: 50px;
+    width: 250px;
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+
+@media (min-width: 400px){
+}
+
+@media (min-width : 900px ){
+.header {
+    width: 100%;
+    height: 153.347px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.logo {
+    height: 66px;
+    width: 202px;
+	padding-left: 20px;
+	padding-top: 5px;
+    padding-bottom: 5px;
+}
+.B1 {
+	height: 50px;
+    width: 135px;
+	padding-left: 100px;
+}
+.B2 {
+	height: 50px;
+    width: 135px;
+	padding-left: 10px;
+}
+.B3 {
+	height: 50px;
+    width: 135px;
+	padding-left: 10px;
+}
+.B4 {
+    height: 50px;
+    width: 135px;
+    padding-left: 10px;
+    padding-right: 20px;
+	
+}
+.textos {
+	font-family: 'Martel Sans', sans-serif;
+    padding-left: 100px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: #513F54;
+    font-size: 13pt;
+    padding-right: 100px;
+    line-height: 23px;
+}
+.textofinal {
+	font-family: 'Martel Sans', sans-serif;
+    padding-left: 100px;
+    padding-top: 10px;
+    padding-bottom: 30px;
+    color: #513F54;
+    font-size: 13pt;
+    padding-right: 100px;
+    line-height: 23px;
+}
+.facebook {
+	height: 50px;
+    width: 50px;
+	padding-left: 40px;
+	padding-right: 40px;
+}
+.instagram {
+	width: 50px;
+    height: 50px;
+	padding-left: 40px;
+	padding-right: 40px;
+}
+.tiktok {
+	width: 50px;
+    height: 50px;
+	padding-left: 40px;
+	padding-right: 40px;
+}
+
+
+
+
+
+
+
+
+
+
+
+}
+.footer {
+    height: 120px;
+    background-color: #974BA6;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.facebook {
+    height: 50px;
+    width: 50px;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+.instagram {
+    width: 50px;
+    height: 50px;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+.tiktok {
+    width: 50px;
+    height: 50px;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+.platfinal {
+    margin: 0 auto;
+    height: 50px;
+    width: 250px;
+    padding-bottom: 400px
+
+}
